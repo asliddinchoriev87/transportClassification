@@ -7,7 +7,7 @@ import platform
 plt = platform.system()
 if plt == 'Linux' : pathlib.WindowsPath = pathlib.PosixPath
 
-# Title
+# title
 st.title("Transport Classification")
 
 #image uploader
