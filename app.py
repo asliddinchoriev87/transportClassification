@@ -26,6 +26,6 @@ if file:
     st.success(f'Prediction : {pred}')
     st.info(f'Probality : {probs[pred_id]*100:.1f}%')
 
-#plotting
-figure = px.bar(x = probs * 100, y = model.dls.vocab)
-st.plotly_chart(figure)
+    #plotting
+    figure = px.bar(x = probs * 100, y = model.dls.vocab)
+    st.plotly_chart(figure)
