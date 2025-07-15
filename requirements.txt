@@ -1,2 +1,2 @@
-fastai
+fastai 2.8.1
 plotly
